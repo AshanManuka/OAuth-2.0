@@ -15,7 +15,14 @@
 <body>
 <h1>Demo</h1>
 <div class="container unauthenticated">
-    With GitHub: <a href="/oauth2/authorization/github"><h2>click here</h2></a>
+    <div style="background-color: aquamarine">
+        <h2>GitHub:</h2><button><h3><a href="/oauth2/authorization/github">click here</a></h3></button>
+    </div>
+    <br/>
+    <br/>
+    <div style="background-color: pink">
+        <h2>Google:</h2><button><h3><a href="/oauth2/authorization/google">click here</a></h3></button>
+    </div>
 </div>
 <div class="container authenticated" style="display:none">
     Logged in as: <span id="user"></span>
